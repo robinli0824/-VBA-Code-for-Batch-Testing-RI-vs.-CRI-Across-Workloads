@@ -3,10 +3,6 @@ Full integration module: RI realistic accumulation strategy &amp; CRI (both inse
 
 Dim ReshuffleTotal As Long
 Dim currentCount As Long
-
-' --------------------------------------------------------------------
-' Main entry point for batch testing RI vs. CRI
-' --------------------------------------------------------------------
 Sub BatchTestRIvsCRI()
     Dim workloads As Variant
     Dim trial As Integer
